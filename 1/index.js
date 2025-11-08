@@ -35,3 +35,13 @@ app.listen(process.env.PORT, () => {
 // seenode
 // render
 // cyclic
+
+
+//setps
+/*
+npm init
+npm install express
+
+package.json ->  "start": "node index.js"
+
+*/
