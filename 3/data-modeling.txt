@@ -1,0 +1,41 @@
+# Professional Data Modeling:
+
+* Tools
+1. Moon Modeler paid : consvert diagram to mongoose code
+
+2. Eraser
+
+Expample:- TODO: notes folder screen-shot 
+
+# Using Mongoose: documentaion 
+
+# Practical Online/Cloud no insatllation needed for environment : 
+ 1. CodeSandBox
+ 2. Github codespace
+ 3. Stack Blitz (using)
+
+# Stack Blitz
+ 1. make account
+ 2. new project 
+ 3. backend express
+ 4. terminal -> npm i mongoose
+
+# Bolier Plate :
+
+import mongoose from 'mongoose';
+
+// your schema
+
+const userSchema = new mongoose.Schema({});
+
+// create model name User on based  of userSchema
+
+export const User = mongoose.model('User', userSchema);
+
+// in mongo db  "User"-> users with s
+
+----------------------------------- Practice --------------------------------
+IN CODE folder models
+user_todo.models.js:
+sub_todo.models.js:
+todo.models.js:
