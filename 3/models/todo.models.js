@@ -30,3 +30,19 @@ const todoSchema = new mongoose.Schema(
 );
 
 export const Todo = mongoose.model('Todo', todoSchema);
+
+/*
+You can also do it like
+const demo = new mongoose.Schema(
+     {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'SubTodo',
+      },)
+
+
+      and then use demo in subTodos array
+
+      subTodos:[demo]
+ */ 
+
+// enum :['active','inactive']  --> only these two value allowed
